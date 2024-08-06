@@ -11,6 +11,10 @@
   width: 100% !important;
 }
 
+.h-container {
+  height: 700px !important;
+}
+
 .hero-container {
   position: absolute;
   top: 40%;
