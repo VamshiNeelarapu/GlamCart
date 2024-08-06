@@ -1,0 +1,52 @@
+.h-carousel {
+  height: 700px !important;
+  width: 100%;
+  position: relative;
+  flex: 1;
+}
+
+.h-carousel img {
+  height: 700px !important;
+  object-fit: cover;
+  width: 100% !important;
+}
+
+.hero-container {
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.438);
+  padding: 20px;
+  border-radius: 10px;
+}
+.hero-container .btn {
+  color: black;
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  border-radius: 30px;
+}
+.hero-container .btn:hover {
+  background-position: left bottom;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+  .h-carousel {
+    position: relative;
+  }
+  .hero-container {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
